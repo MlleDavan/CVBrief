@@ -12,8 +12,10 @@ h2{
     color:darkslateblue ;
     margin:20px;
 }
+
+.p_profil {padding-left: 20px;}
 .fondcv{
-background-color:rgba(219, 214, 216, 0);
+background-color:rgba(238, 230, 233, 0);
 
 }
 li:hover{color: rgb(0, 0, 0); background-color: rgb(255, 0, 85); border: 1px solid rgb(76, 31, 201);}
@@ -24,7 +26,8 @@ li:hover{color: rgb(0, 0, 0); background-color: rgb(255, 0, 85); border: 1px sol
 #flex{
 display : flex;
 align-items: center;
-padding: 50px;
+padding: 0px;
+
 
 }
 #bloc2{
@@ -40,8 +43,24 @@ padding: 50px;
 	* {
 		box-sizing: border-box;
 	}
-	
+	.parents {flex-direction: column;}
 	/* passer body (et tous les éléments de largeur fixe) en largeur automatique */
+
+	#flex{
+		display : flex;
+		align-items: none;
+		padding: 50px;
+		
+
+}
+#bloc2{
+    height: auto;
+    background-color: rgb(98, 159, 216);
+
+}
+#bloc1{
+    background-color: rgb(238, 96, 226);
+}
 
 	body {
 		width: auto;
@@ -95,8 +114,8 @@ padding: 50px;
 	
 	/* Passer à une seule colonne (à appliquer aux éléments multi-colonnes) */
 
-	.element1,
-	.element2 {
+	.bloc1,
+	.bloc2 {
 		float: none;
 		width: auto;
 	}
