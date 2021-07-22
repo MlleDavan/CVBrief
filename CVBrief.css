@@ -1,5 +1,6 @@
 h3{
     color:blue;
+   
 }
 h1 {
     color:maroon;
@@ -8,7 +9,8 @@ h1 {
 h2{
     text-align: center;
     border: solid;
-    color:darkslateblue 
+    color:darkslateblue ;
+    margin:20px;
 }
 .fondcv{
 background-color:rgba(219, 214, 216, 0);
@@ -16,14 +18,17 @@ background-color:rgba(219, 214, 216, 0);
 }
 li:hover{color: rgb(0, 0, 0); background-color: rgb(255, 0, 85); border: 1px solid rgb(76, 31, 201);}
 
-pi{}
 
-p, b{margin:0px;
-    padding: 0px;}
+
 
 #flex{
 display : flex;
-flex-wrap: ;
-flex-direction: ;
-#bloc 1
-#bloc 2
+align-items: center;
+padding: 50px;
+
+}
+#bloc2{
+    height: auto;
+    background-color: rgb(97, 97, 182);
+
+}
