@@ -23,8 +23,6 @@ background-color:rgba(238, 230, 233, 0);
 li:hover{color: rgb(0, 0, 0); background-color: rgb(255, 0, 85); border: 1px solid rgb(76, 31, 201);}
 
 
-
-
 #flex{
 display : flex;
 align-items: center;
