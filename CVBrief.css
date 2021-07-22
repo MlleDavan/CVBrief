@@ -48,13 +48,7 @@ padding: 0px;
 	.parents {flex-direction: column;}
 	/* passer body (et tous les éléments de largeur fixe) en largeur automatique */
 
-	#flex{
-		display : flex;
-		align-items: none;
-		padding: 50px;
-		
 
-}
 #bloc2{
     height: auto;
     background-color: rgb(98, 159, 216);
