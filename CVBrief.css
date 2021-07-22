@@ -1,3 +1,5 @@
+
+@media (min-width:640px){
 h3{
     color:blue;
    
@@ -38,8 +40,8 @@ padding: 0px;
 #bloc1{
     background-color: rgb(238, 96, 226);
 }
-
-@media (max-width: 640px) {
+}
+@media (max-width: 639px) {
 	* {
 		box-sizing: border-box;
 	}
