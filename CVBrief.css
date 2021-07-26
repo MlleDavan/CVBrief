@@ -32,11 +32,11 @@ padding: 0px;
 }
 #bloc2{
     height: auto;
-    background-color: rgb(98, 159, 216);
+    background-color: rgb(166, 206, 243);
 
 }
 #bloc1{
-    background-color: rgb(238, 96, 226);
+    background-color: rgb(245, 179, 239);
 }
 }
 @media (max-width: 639px) {
